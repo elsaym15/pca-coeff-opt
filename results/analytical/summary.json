@@ -1,0 +1,29 @@
+{
+  "benchmark": "latent_quadratic",
+  "full_dim": 60,
+  "latent_dim": 10,
+  "pca_components": 10,
+  "ensemble_size": 300,
+  "explained_variance_ratio": 0.9995065570049592,
+  "full_space": {
+    "method": "L-BFGS-B",
+    "success": true,
+    "iterations": 26,
+    "final_objective": 2.28592214384293e-09,
+    "final_grad_norm": 0.00017506014771669025
+  },
+  "reduced_space": {
+    "method": "trust-constr",
+    "success": true,
+    "iterations": 14,
+    "final_objective": 5.1059401578495524e-17,
+    "final_grad_norm": 1.1772929080842718e-08,
+    "dynamic_scaling": false,
+    "whitening_enabled": false
+  },
+  "comparison": {
+    "iteration_reduction_percent": 46.15384615384615,
+    "objective_improvement_factor": 44769857.71814612,
+    "objective_reduction_percent": 99.9999977663543
+  }
+}

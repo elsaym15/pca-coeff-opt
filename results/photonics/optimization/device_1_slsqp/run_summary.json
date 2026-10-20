@@ -1,0 +1,20 @@
+{
+  "run_name": "device_1_slsqp",
+  "method": "SLSQP",
+  "device_index": 1,
+  "success": true,
+  "message": "Optimization terminated successfully",
+  "iterations": 82,
+  "fdtd_evaluations": 102,
+  "initial_transmission": -0.29538521502402004,
+  "final_transmission": -0.9731209145699676,
+  "final_gradient_norm": 3.1480108018157503e-10,
+  "scaling_factor": 724250769.287887,
+  "monitor_shape": [
+    393,
+    393
+  ],
+  "log_file": "C:\\Users\\elsaym15\\OneDrive - McMaster University\\Documents\\GitHub\\pca-coeff-opt\\results\\photonics\\optimization\\logs\\device_1_slsqp.log",
+  "final_forward_session": "C:\\Users\\elsaym15\\OneDrive - McMaster University\\Documents\\GitHub\\pca-coeff-opt\\results\\photonics\\optimization\\temp_sessions\\device_1_slsqp\\forward_final_0102.fsp",
+  "final_adjoint_session": "C:\\Users\\elsaym15\\OneDrive - McMaster University\\Documents\\GitHub\\pca-coeff-opt\\results\\photonics\\optimization\\temp_sessions\\device_1_slsqp\\adjoint_final_0102.fsp"
+}

@@ -1,0 +1,173 @@
+# =============================================================================
+# Lumerical Script for a 90-Degree Silicon Photonic Waveguide Bend
+# MODIFIED for fixed simulation area and adaptive waveguide lengths.
+# =============================================================================
+
+# Clear workspace and start a new project
+newproject;
+
+# =============================================================================
+# A. DEFINE SIMULATION PARAMETERS
+# All key parameters are defined here for easy modification.
+# -----------------------------------------------------------------------------
+# Geometric Parameters (in meters)
+wg_width = 0.5e-6;      # Waveguide width
+wg_height = 0.22e-6;    # Waveguide height
+
+# Material Parameters
+si_material = 2.8;      # Effective index of the TE mode
+sio2_material = 1.44;   # Refractive index of SiO2
+
+# Simulation Wavelength Parameters (in meters)
+lambda_center = 1.55e-6;
+lambda_span = 0;        # For optimization, we usually start with a single frequency
+
+# Mesh Parameters
+mesh_accuracy = 5;
+
+# Fixed Simulation Footprint Parameters ---
+sim_span_x = 15e-6;                               # Fixed width of the FDTD region
+sim_span_y = 15e-6;                               # Fixed height of the FDTD region
+fdtd_buffer = 5e-6;
+input_buffer = 2e-6;
+output_buffer = 2e-6;
+mode_buffer = 1e-6;
+monitor_buffer = 1e-6;
+wg_start_x = -sim_span_x / 2 - input_buffer;      # Fixed start coordinate of the input wg
+wg_start_y = sim_span_y / 2 - fdtd_buffer;
+wg_end_y = -sim_span_y / 2 - output_buffer;       # Fixed end coordinate of the output wg
+wg_end_x = sim_span_x / 2 - fdtd_buffer;
+
+design_start_x = wg_start_x + input_buffer + mode_buffer;
+design_end_x = wg_end_x + wg_width * 1.5;
+design_start_y = wg_end_y + output_buffer + monitor_buffer;
+design_end_y = wg_start_y + wg_width * 1.5;
+
+# =============================================================================
+# B. STAGE 1: SET UP THE SIMULATION ENVIRONMENT
+# Add and configure the FDTD solver region and boundary conditions.
+# -----------------------------------------------------------------------------
+addfdtd;
+set("dimension", "2D");
+set("index", sio2_material); 
+
+# Set simulation volume based on fixed parameters
+set("x span", sim_span_x);
+set("y span", sim_span_y);
+set("x", 0);
+set("y", 0);
+set("z", 0);
+set("mesh accuracy", mesh_accuracy);
+
+# Set boundary conditions to PML (Perfectly Matched Layer) on all sides
+set("x min bc", "PML");
+set("x max bc", "PML");
+set("y min bc", "PML");
+set("y max bc", "PML");
+
+# Set simulation time
+set("simulation time", 1000e-15); # 1000 fs
+set("auto shutoff min", 1e-5);
+
+# =============================================================================
+# C. STAGE 2: CONSTRUCT THE DEVICE GEOMETRY
+# The waveguide lengths are now calculated automatically.
+# -----------------------------------------------------------------------------
+# Add Input Waveguide
+addrect;
+set("name", "wg_input");
+set("index", si_material);
+set("x min", wg_start_x);
+set("x max", design_start_x);
+set("y", wg_start_y);
+set("y span", wg_width);
+set("z", 0);
+set("z span", wg_height);
+
+# Add Output Waveguide
+addrect;
+set("name", "wg_output");
+set("index", si_material);
+set("y min", wg_end_y);
+set("y max", design_start_y);
+set("x", wg_end_x);
+set("x span", wg_width);
+set("z", 0);
+set("z span", wg_height);
+
+# =============================================================================
+# D. STAGE 3: DEFINE THE PHYSICS (EXCITATION AND MEASUREMENT)
+# Add the mode source and the power monitors.
+# -----------------------------------------------------------------------------
+# Add Mode Source
+mode_buffer = 1e-6;
+addmode;
+set("name", "source"); 
+set("injection axis", "x-axis");
+set("direction", "forward");
+set("x", wg_start_x + input_buffer + mode_buffer); # Position inside the input waveguide
+set("y", wg_start_y);
+set("y span", wg_width * 3);
+set("z", 0);
+set("z span", wg_height * 4);
+set("mode selection", "fundamental TM mode");
+set("center wavelength", lambda_center);
+set("wavelength span", lambda_span);
+
+# Add Transmission Monitor (T) - Changed from addpower to adddftmonitor
+monitor_buffer = 1e-6;
+addpower;
+set("name", "fom");
+set("monitor type", "2D Y-normal"); 
+set("y", wg_end_y + output_buffer + monitor_buffer); # Place near the end of the output waveguide
+set("x", wg_end_x);
+set("x span", wg_width * 3);
+set("z", 0);
+set("z span", wg_height * 4);
+
+# Add an Index Monitor to capture the geometry ---
+addprofile;
+set("name", "opt_fields");
+set("monitor type", "2D Z-normal");
+# Match the FDTD region to capture the entire geometry
+set("x min", design_start_x);
+set("x max", design_end_x);
+set("y min", design_start_y);
+set("y max", design_end_y);
+set("z", 0);
+
+# =============================================================================
+# E. STAGE 3.5: ADD MESH OVERRIDE TO MATCH PCA DATA
+# This forces the simulation mesh to match the high-resolution
+# grid that the PCA model was trained on (345x345).
+# =============================================================================
+pca_points_x = 392;
+pca_points_y = 392;
+
+dx = (design_end_x - design_start_x) / pca_points_x;
+dy = (design_end_y - design_start_y) / pca_points_y;
+ 
+addmesh;
+set("name", "pca_mesh_override");
+
+# --- Set geometry to match the 'opt_fields' monitor ---
+set("x min", design_start_x);
+set("x max", design_end_x);
+set("y min", design_start_y);
+set("y max", design_end_y);
+set("z", 0);
+set("z span", 0);
+
+# --- Force the number of mesh points ---
+# This is the crucial part that solves the error
+set("override x mesh", 1);
+set("override y mesh", 1);
+set("dx", dx);  # Number of points in x
+set("dy", dy);  # Number of points in y
+
+# =============================================================================
+# F. STAGE 4: RUN THE SIMULATION
+# -----------------------------------------------------------------------------
+save("lumerical\Monitor_Dimensions");
+
+run;

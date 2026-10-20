@@ -1,0 +1,109 @@
+All processes are communicating and ready to proceed to simulation...
+CPU threads per process: 1
+Ansys Lumerical 2025 R2.4 FDTD Solver Version 8.34.4336 (Windows 64bit)
+ expires (month/day/year): 3/19/2027
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@srv-lm-02.ece.mcmaster.ca
+current time: Mon Oct 19 16:44:50 2026
+Running on host: PC-BAKR-15
+host available memory (GiB) 36.728
+
+All processes are communicating and ready to proceed to simulation...
+Detected 10 processes on 1 host
+This process is the local leader
+Running fsp file: C:\Program Files\Lumerical\v252\bin\fdtd-engine-msmpi.exe -t 1 -remote C:/Users/elsaym15/OneDrive - McMaster University/Documents/GitHub/pca-coeff-opt/data/raw/fsp/bend_radius_6.08um.fsp
+Estimate of memory required: 0.098 GiB
+
+Starting meshing
+Simulation size in gridpoints: 1 x 55 x 1
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 55 x 1
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 55 x 1
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+Sharing project file with 9 peer processes on this host
+All processes are communicating and ready to proceed to simulation...
+number of processors is 10
+processors are distributed as: 2x5x1
+Peak CPU memory used by end of initialization: 0.081357 GiB
+Running 2D Simulation
+Starting meshing
+Simulation size in gridpoints: 270 x 108 x 1
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+18% initialized.
+20% initialized.
+25% initialized.
+Starting meshing
+Simulation size in gridpoints: 270 x 108 x 1
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+43% initialized.
+45% initialized.
+finished material properties
+Selected kernel with optimization level: 2 and split-field propagation direction: 0
+Starting meshing
+Simulation size in gridpoints: 270 x 108 x 1
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+86% initialized.
+90% initialized.
+Selected kernel with optimization level: 2 and split-field propagation direction: 0
+100% initialized.
+-----------------------------------------
+Beginning initialization of 2D FDTD Simulation
+  Including TE Simulation
+Starting to add sources to simulation
+
+Adding Mode source propagating in X
+Starting to add boundary conditions to simulation
+Adding PML BC
+Adding parallel BC
+Adding PML BC
+Adding parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding frequency monitor
+Adding index monitor
+Finished initialization of 2D Simulation
+-----------------------------------------
+Peak CPU memory used by end of meshing: 0.084558 GiB
+All processes are communicating and ready to proceed to simulation...
+Starting 17590 total iterations
+0.272887% complete. Elapsed simulation time: 2.72887e-15 secs. Max time remaining: 6 secs. Auto Shutoff: 1
+1.36443% complete. Elapsed simulation time: 1.36443e-14 secs. Max time remaining: 5 secs. Auto Shutoff: 1
+2.81983% complete. Elapsed simulation time: 2.81983e-14 secs. Max time remaining: 5 secs. Auto Shutoff: 1
+5.73062% complete. Elapsed simulation time: 5.73062e-14 secs. Max time remaining: 5 secs. Auto Shutoff: 1
+11.5522% complete. Elapsed simulation time: 1.15522e-13 secs. Max time remaining: 5 secs. Auto Shutoff: 1.01945
+22.263% complete. Elapsed simulation time: 2.2263e-13 secs. Max time remaining: 4 secs. Auto Shutoff: 2.88779e-06
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 2.88779e-06
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 3916 iterations, or 2.226301e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting TM monitor data
+    collecting TE monitor data
+    collecting TM source data
+    collecting TE source data
+Finished collecting data
+Simulation completed successfully at: Mon Oct 19 16:44:52 2026
+Peak CPU memory used in the simulation (GiB): 0.096238
+Overall wall time measurements in seconds: 8.777678
+  time to mesh and initialize: 0.028074
+  time to run FDTD simulation: 1.139671
+  time to checkpoint simulation: 0.000000
+  time to finalize data and save to files: 0.021892
+  miscellaneous time: 7.588012
+  FDTD solver speed on process 0 (Mnodes/s): 100.196030
+  total FDTD solver speed on 10 processes (Mnodes/s): 1001.960302
+

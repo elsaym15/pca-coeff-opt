@@ -1,0 +1,631 @@
+2026-10-19 21:39:22,380 | INFO | Run directory: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\device_1_slsqp
+2026-10-19 21:39:22,381 | INFO | Temporary FSP directory: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp
+2026-10-19 21:39:22,381 | INFO | Using repo paths | data=C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\data\models | lumerical=C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\lumerical
+2026-10-19 21:39:23,773 | INFO | Loaded PCA model from C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\data\models\photonic_pca.joblib
+2026-10-19 21:39:23,773 | INFO | Loaded coefficient matrix from C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\data\models\photonic_coefficients.npy with shape (10, 8)
+2026-10-19 21:39:23,774 | WARNING | Expected monitor-dimension save line not found in run LSF; using script as-is
+2026-10-19 21:39:23,774 | INFO | Launching run-LSF dimensions session
+2026-10-19 21:39:52,032 | INFO | Retrieved monitor dimensions: 393 x 393
+2026-10-19 21:39:52,032 | INFO | Validated PCA feature count against monitor grid
+2026-10-19 21:39:52,033 | INFO | Using initial coefficient row 1 with shape (8,)
+2026-10-19 21:39:52,035 | INFO | Iteration iter_0000 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:39:59,791 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:39:59,848 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0000.fsp
+2026-10-19 21:40:11,288 | INFO | Iteration iter_0000 | raw_fom= 2.95385215e-01 | transmission=-2.95385215e-01
+2026-10-19 21:40:11,414 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0000.fsp
+2026-10-19 21:40:22,738 | INFO | Iteration iter_0000 | gradient_norm= 1.59487638e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:40:33,275 | INFO | Initialized optimizer scaling factor: 7.24250769e+08
+2026-10-19 21:40:33,278 | INFO | Iteration iter_0001 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:40:41,044 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:40:41,100 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0001.fsp
+2026-10-19 21:40:52,584 | INFO | Iteration iter_0001 | raw_fom= 3.05772090e-01 | transmission=-3.05772090e-01
+2026-10-19 21:40:52,701 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0001.fsp
+2026-10-19 21:41:04,003 | INFO | Iteration iter_0001 | gradient_norm= 3.83795636e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:41:14,603 | INFO | Iteration iter_0002 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:41:22,364 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:41:22,419 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0002.fsp
+2026-10-19 21:41:34,062 | INFO | Iteration iter_0002 | raw_fom= 3.16029074e-01 | transmission=-3.16029074e-01
+2026-10-19 21:41:34,182 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0002.fsp
+2026-10-19 21:41:46,175 | INFO | Iteration iter_0002 | gradient_norm= 3.96158741e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:41:56,756 | INFO | Iteration iter_0003 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:42:04,597 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:42:04,651 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0003.fsp
+2026-10-19 21:42:16,357 | INFO | Iteration iter_0003 | raw_fom= 3.83740888e-01 | transmission=-3.83740888e-01
+2026-10-19 21:42:16,483 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0003.fsp
+2026-10-19 21:42:29,507 | INFO | Iteration iter_0003 | gradient_norm= 4.74170865e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:42:40,068 | INFO | Iteration iter_0004 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:42:47,893 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:42:47,946 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0004.fsp
+2026-10-19 21:42:59,578 | INFO | Iteration iter_0004 | raw_fom= 7.14146487e-01 | transmission=-7.14146487e-01
+2026-10-19 21:42:59,703 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0004.fsp
+2026-10-19 21:43:12,934 | INFO | Iteration iter_0004 | gradient_norm= 7.47707325e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:43:23,485 | INFO | Iteration iter_0005 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:43:31,247 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:43:31,302 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0005.fsp
+2026-10-19 21:43:42,997 | INFO | Iteration iter_0005 | raw_fom= 7.50821034e-01 | transmission=-7.50821034e-01
+2026-10-19 21:43:43,121 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0005.fsp
+2026-10-19 21:43:55,114 | INFO | Iteration iter_0005 | gradient_norm= 1.43193985e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:44:06,616 | INFO | Iteration iter_0006 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:44:14,143 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:44:14,195 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0006.fsp
+2026-10-19 21:44:26,159 | INFO | Iteration iter_0006 | raw_fom= 7.72762282e-01 | transmission=-7.72762282e-01
+2026-10-19 21:44:26,280 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0006.fsp
+2026-10-19 21:44:38,260 | INFO | Iteration iter_0006 | gradient_norm= 8.02408835e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:44:49,783 | INFO | Iteration iter_0007 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:44:57,241 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:44:57,294 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0007.fsp
+2026-10-19 21:45:09,203 | INFO | Iteration iter_0007 | raw_fom= 7.73193287e-01 | transmission=-7.73193287e-01
+2026-10-19 21:45:09,328 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0007.fsp
+2026-10-19 21:45:21,477 | INFO | Iteration iter_0007 | gradient_norm= 6.48103936e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:45:32,852 | INFO | Iteration iter_0008 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:45:40,327 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:45:40,383 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0008.fsp
+2026-10-19 21:45:52,517 | INFO | Iteration iter_0008 | raw_fom= 7.74759959e-01 | transmission=-7.74759959e-01
+2026-10-19 21:45:52,636 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0008.fsp
+2026-10-19 21:46:04,351 | INFO | Iteration iter_0008 | gradient_norm= 9.99299146e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:46:14,866 | INFO | Iteration iter_0009 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:46:22,319 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:46:22,373 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0009.fsp
+2026-10-19 21:46:35,542 | INFO | Iteration iter_0009 | raw_fom= 7.79388702e-01 | transmission=-7.79388702e-01
+2026-10-19 21:46:35,661 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0009.fsp
+2026-10-19 21:46:46,539 | INFO | Iteration iter_0009 | gradient_norm= 2.04677665e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:46:58,024 | INFO | Iteration iter_0010 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:47:05,475 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:47:05,528 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0010.fsp
+2026-10-19 21:47:17,591 | INFO | Iteration iter_0010 | raw_fom= 7.89855041e-01 | transmission=-7.89855041e-01
+2026-10-19 21:47:17,714 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0010.fsp
+2026-10-19 21:47:29,678 | INFO | Iteration iter_0010 | gradient_norm= 3.48550344e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:47:41,147 | INFO | Iteration iter_0011 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:47:48,630 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:47:48,683 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0011.fsp
+2026-10-19 21:48:01,796 | INFO | Iteration iter_0011 | raw_fom= 8.06171500e-01 | transmission=-8.06171500e-01
+2026-10-19 21:48:01,919 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0011.fsp
+2026-10-19 21:48:12,804 | INFO | Iteration iter_0011 | gradient_norm= 4.59544465e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:48:24,255 | INFO | Iteration iter_0012 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:48:31,714 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:48:31,771 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0012.fsp
+2026-10-19 21:48:44,907 | INFO | Iteration iter_0012 | raw_fom= 8.18536211e-01 | transmission=-8.18536211e-01
+2026-10-19 21:48:45,025 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0012.fsp
+2026-10-19 21:48:57,044 | INFO | Iteration iter_0012 | gradient_norm= 4.00708023e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:49:07,503 | INFO | Iteration iter_0013 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:49:14,974 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:49:15,029 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0013.fsp
+2026-10-19 21:49:28,158 | INFO | Iteration iter_0013 | raw_fom= 8.24333190e-01 | transmission=-8.24333190e-01
+2026-10-19 21:49:28,282 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0013.fsp
+2026-10-19 21:49:40,256 | INFO | Iteration iter_0013 | gradient_norm= 1.71635725e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:49:50,721 | INFO | Iteration iter_0014 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:49:58,205 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:49:58,266 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0014.fsp
+2026-10-19 21:50:10,308 | INFO | Iteration iter_0014 | raw_fom= 8.25693824e-01 | transmission=-8.25693824e-01
+2026-10-19 21:50:10,443 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0014.fsp
+2026-10-19 21:50:22,434 | INFO | Iteration iter_0014 | gradient_norm= 3.10703260e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:50:33,895 | INFO | Iteration iter_0015 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:50:41,362 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:50:41,415 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0015.fsp
+2026-10-19 21:50:53,476 | INFO | Iteration iter_0015 | raw_fom= 8.25802162e-01 | transmission=-8.25802162e-01
+2026-10-19 21:50:53,601 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0015.fsp
+2026-10-19 21:51:05,574 | INFO | Iteration iter_0015 | gradient_norm= 3.03477380e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:51:16,997 | INFO | Iteration iter_0016 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:51:24,499 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:51:24,553 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0016.fsp
+2026-10-19 21:51:36,664 | INFO | Iteration iter_0016 | raw_fom= 8.26257911e-01 | transmission=-8.26257911e-01
+2026-10-19 21:51:36,792 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0016.fsp
+2026-10-19 21:51:48,652 | INFO | Iteration iter_0016 | gradient_norm= 4.82541912e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:51:59,159 | INFO | Iteration iter_0017 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:52:06,676 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:52:06,734 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0017.fsp
+2026-10-19 21:52:19,838 | INFO | Iteration iter_0017 | raw_fom= 8.27210526e-01 | transmission=-8.27210526e-01
+2026-10-19 21:52:19,958 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0017.fsp
+2026-10-19 21:52:31,962 | INFO | Iteration iter_0017 | gradient_norm= 7.90572234e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:52:42,507 | INFO | Iteration iter_0018 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:52:49,989 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:52:50,044 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0018.fsp
+2026-10-19 21:53:03,186 | INFO | Iteration iter_0018 | raw_fom= 8.29046685e-01 | transmission=-8.29046685e-01
+2026-10-19 21:53:03,306 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0018.fsp
+2026-10-19 21:53:15,318 | INFO | Iteration iter_0018 | gradient_norm= 1.08772807e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:53:25,776 | INFO | Iteration iter_0019 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:53:33,238 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:53:33,296 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0019.fsp
+2026-10-19 21:53:46,447 | INFO | Iteration iter_0019 | raw_fom= 8.30845098e-01 | transmission=-8.30845098e-01
+2026-10-19 21:53:46,569 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0019.fsp
+2026-10-19 21:53:58,614 | INFO | Iteration iter_0019 | gradient_norm= 9.54382047e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:54:09,104 | INFO | Iteration iter_0020 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:54:16,597 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:54:16,651 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0020.fsp
+2026-10-19 21:54:29,784 | INFO | Iteration iter_0020 | raw_fom= 8.31691194e-01 | transmission=-8.31691194e-01
+2026-10-19 21:54:29,907 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0020.fsp
+2026-10-19 21:54:41,905 | INFO | Iteration iter_0020 | gradient_norm= 5.36474033e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:54:52,392 | INFO | Iteration iter_0021 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:54:59,894 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:54:59,948 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0021.fsp
+2026-10-19 21:55:13,087 | INFO | Iteration iter_0021 | raw_fom= 8.31976210e-01 | transmission=-8.31976210e-01
+2026-10-19 21:55:13,218 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0021.fsp
+2026-10-19 21:55:24,129 | INFO | Iteration iter_0021 | gradient_norm= 2.72722568e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:55:35,584 | INFO | Iteration iter_0022 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:55:43,030 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:55:43,091 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0022.fsp
+2026-10-19 21:55:56,220 | INFO | Iteration iter_0022 | raw_fom= 8.32089119e-01 | transmission=-8.32089119e-01
+2026-10-19 21:55:56,351 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0022.fsp
+2026-10-19 21:56:08,362 | INFO | Iteration iter_0022 | gradient_norm= 2.75504463e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:56:18,850 | INFO | Iteration iter_0023 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:56:26,325 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:56:26,383 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0023.fsp
+2026-10-19 21:56:38,478 | INFO | Iteration iter_0023 | raw_fom= 8.32269535e-01 | transmission=-8.32269535e-01
+2026-10-19 21:56:38,602 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0023.fsp
+2026-10-19 21:56:51,753 | INFO | Iteration iter_0023 | gradient_norm= 3.65833553e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:57:02,203 | INFO | Iteration iter_0024 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:57:09,651 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:57:09,707 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0024.fsp
+2026-10-19 21:57:21,520 | INFO | Iteration iter_0024 | raw_fom= 8.32847918e-01 | transmission=-8.32847918e-01
+2026-10-19 21:57:21,640 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0024.fsp
+2026-10-19 21:57:33,004 | INFO | Iteration iter_0024 | gradient_norm= 6.30189038e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:57:43,477 | INFO | Iteration iter_0025 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:57:50,907 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:57:50,960 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0025.fsp
+2026-10-19 21:58:03,109 | INFO | Iteration iter_0025 | raw_fom= 8.34350916e-01 | transmission=-8.34350916e-01
+2026-10-19 21:58:03,231 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0025.fsp
+2026-10-19 21:58:15,179 | INFO | Iteration iter_0025 | gradient_norm= 1.11724875e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:58:26,666 | INFO | Iteration iter_0026 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:58:34,125 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:58:34,180 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0026.fsp
+2026-10-19 21:58:47,353 | INFO | Iteration iter_0026 | raw_fom= 8.38335838e-01 | transmission=-8.38335838e-01
+2026-10-19 21:58:47,472 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0026.fsp
+2026-10-19 21:58:59,493 | INFO | Iteration iter_0026 | gradient_norm= 2.08727978e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:59:09,987 | INFO | Iteration iter_0027 | Reconstructed index map shape: (393, 393)
+2026-10-19 21:59:17,442 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 21:59:17,493 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0027.fsp
+2026-10-19 21:59:29,579 | INFO | Iteration iter_0027 | raw_fom= 8.45293559e-01 | transmission=-8.45293559e-01
+2026-10-19 21:59:29,700 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0027.fsp
+2026-10-19 21:59:42,795 | INFO | Iteration iter_0027 | gradient_norm= 3.45873296e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 21:59:53,231 | INFO | Iteration iter_0028 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:00:00,712 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:00:00,764 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0028.fsp
+2026-10-19 22:00:13,880 | INFO | Iteration iter_0028 | raw_fom= 8.52633771e-01 | transmission=-8.52633771e-01
+2026-10-19 22:00:14,009 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0028.fsp
+2026-10-19 22:00:26,019 | INFO | Iteration iter_0028 | gradient_norm= 3.38526680e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:00:36,488 | INFO | Iteration iter_0029 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:00:43,941 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:00:44,001 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0029.fsp
+2026-10-19 22:00:57,284 | INFO | Iteration iter_0029 | raw_fom= 8.63481084e-01 | transmission=-8.63481084e-01
+2026-10-19 22:00:57,413 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0029.fsp
+2026-10-19 22:01:09,379 | INFO | Iteration iter_0029 | gradient_norm= 3.63660312e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:01:19,863 | INFO | Iteration iter_0030 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:01:27,347 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:01:27,403 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0030.fsp
+2026-10-19 22:01:39,514 | INFO | Iteration iter_0030 | raw_fom= 8.64637807e-01 | transmission=-8.64637807e-01
+2026-10-19 22:01:39,634 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0030.fsp
+2026-10-19 22:01:51,698 | INFO | Iteration iter_0030 | gradient_norm= 9.32065378e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:02:03,144 | INFO | Iteration iter_0031 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:02:10,628 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:02:10,687 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0031.fsp
+2026-10-19 22:02:23,797 | INFO | Iteration iter_0031 | raw_fom= 8.64671304e-01 | transmission=-8.64671304e-01
+2026-10-19 22:02:23,923 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0031.fsp
+2026-10-19 22:02:35,942 | INFO | Iteration iter_0031 | gradient_norm= 4.64120384e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:02:46,403 | INFO | Iteration iter_0032 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:02:53,878 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:02:53,930 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0032.fsp
+2026-10-19 22:03:07,173 | INFO | Iteration iter_0032 | raw_fom= 8.64757522e-01 | transmission=-8.64757522e-01
+2026-10-19 22:03:07,296 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0032.fsp
+2026-10-19 22:03:19,305 | INFO | Iteration iter_0032 | gradient_norm= 1.46595748e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:03:29,777 | INFO | Iteration iter_0033 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:03:37,252 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:03:37,306 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0033.fsp
+2026-10-19 22:03:50,534 | INFO | Iteration iter_0033 | raw_fom= 8.64786729e-01 | transmission=-8.64786729e-01
+2026-10-19 22:03:50,661 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0033.fsp
+2026-10-19 22:04:02,686 | INFO | Iteration iter_0033 | gradient_norm= 1.51406482e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:04:13,141 | INFO | Iteration iter_0034 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:04:20,619 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:04:20,680 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0034.fsp
+2026-10-19 22:04:32,611 | INFO | Iteration iter_0034 | raw_fom= 8.64859628e-01 | transmission=-8.64859628e-01
+2026-10-19 22:04:32,733 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0034.fsp
+2026-10-19 22:04:44,078 | INFO | Iteration iter_0034 | gradient_norm= 1.60685671e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:04:54,544 | INFO | Iteration iter_0035 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:05:02,021 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:05:02,075 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0035.fsp
+2026-10-19 22:05:14,022 | INFO | Iteration iter_0035 | raw_fom= 8.65090439e-01 | transmission=-8.65090439e-01
+2026-10-19 22:05:14,150 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0035.fsp
+2026-10-19 22:05:26,263 | INFO | Iteration iter_0035 | gradient_norm= 2.14796312e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:05:37,718 | INFO | Iteration iter_0036 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:05:45,221 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:05:45,277 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0036.fsp
+2026-10-19 22:05:58,525 | INFO | Iteration iter_0036 | raw_fom= 8.65640979e-01 | transmission=-8.65640979e-01
+2026-10-19 22:05:58,648 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0036.fsp
+2026-10-19 22:06:10,677 | INFO | Iteration iter_0036 | gradient_norm= 3.24467379e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:06:21,126 | INFO | Iteration iter_0037 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:06:28,586 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:06:28,637 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0037.fsp
+2026-10-19 22:06:41,770 | INFO | Iteration iter_0037 | raw_fom= 8.66928925e-01 | transmission=-8.66928925e-01
+2026-10-19 22:06:41,890 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0037.fsp
+2026-10-19 22:06:53,954 | INFO | Iteration iter_0037 | gradient_norm= 4.43622508e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:07:04,414 | INFO | Iteration iter_0038 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:07:11,906 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:07:11,958 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0038.fsp
+2026-10-19 22:07:23,934 | INFO | Iteration iter_0038 | raw_fom= 8.69505191e-01 | transmission=-8.69505191e-01
+2026-10-19 22:07:24,055 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0038.fsp
+2026-10-19 22:07:36,149 | INFO | Iteration iter_0038 | gradient_norm= 4.08244248e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:07:47,593 | INFO | Iteration iter_0039 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:07:55,051 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:07:55,110 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0039.fsp
+2026-10-19 22:08:07,231 | INFO | Iteration iter_0039 | raw_fom= 8.73394020e-01 | transmission=-8.73394020e-01
+2026-10-19 22:08:07,365 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0039.fsp
+2026-10-19 22:08:19,129 | INFO | Iteration iter_0039 | gradient_norm= 8.22156500e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:08:29,626 | INFO | Iteration iter_0040 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:08:37,081 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:08:37,136 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0040.fsp
+2026-10-19 22:08:50,290 | INFO | Iteration iter_0040 | raw_fom= 8.76668664e-01 | transmission=-8.76668664e-01
+2026-10-19 22:08:50,412 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0040.fsp
+2026-10-19 22:09:02,441 | INFO | Iteration iter_0040 | gradient_norm= 8.06193680e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:09:12,974 | INFO | Iteration iter_0041 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:09:20,441 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:09:20,500 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0041.fsp
+2026-10-19 22:09:33,656 | INFO | Iteration iter_0041 | raw_fom= 8.78660727e-01 | transmission=-8.78660727e-01
+2026-10-19 22:09:33,773 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0041.fsp
+2026-10-19 22:09:45,782 | INFO | Iteration iter_0041 | gradient_norm= 1.13428831e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:09:56,310 | INFO | Iteration iter_0042 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:10:03,795 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:10:03,854 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0042.fsp
+2026-10-19 22:10:16,948 | INFO | Iteration iter_0042 | raw_fom= 8.79266714e-01 | transmission=-8.79266714e-01
+2026-10-19 22:10:17,084 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0042.fsp
+2026-10-19 22:10:29,096 | INFO | Iteration iter_0042 | gradient_norm= 6.47823046e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:10:39,609 | INFO | Iteration iter_0043 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:10:47,074 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:10:47,131 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0043.fsp
+2026-10-19 22:10:59,194 | INFO | Iteration iter_0043 | raw_fom= 8.72795572e-01 | transmission=-8.72795572e-01
+2026-10-19 22:10:59,315 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0043.fsp
+2026-10-19 22:11:12,490 | INFO | Iteration iter_0043 | gradient_norm= 1.01872471e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:11:23,009 | INFO | Iteration iter_0044 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:11:30,476 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:11:30,527 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0044.fsp
+2026-10-19 22:11:42,607 | INFO | Iteration iter_0044 | raw_fom= 8.79729153e-01 | transmission=-8.79729153e-01
+2026-10-19 22:11:42,728 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0044.fsp
+2026-10-19 22:11:55,855 | INFO | Iteration iter_0044 | gradient_norm= 3.51391217e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:12:06,330 | INFO | Iteration iter_0045 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:12:13,776 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:12:13,832 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0045.fsp
+2026-10-19 22:12:25,960 | INFO | Iteration iter_0045 | raw_fom= 1.27864120e-01 | transmission=-1.27864120e-01
+2026-10-19 22:12:26,089 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0045.fsp
+2026-10-19 22:12:38,059 | INFO | Iteration iter_0045 | gradient_norm= 6.43147257e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:12:49,456 | INFO | Iteration iter_0046 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:12:56,948 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:12:57,003 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0046.fsp
+2026-10-19 22:13:10,152 | INFO | Iteration iter_0046 | raw_fom= 8.81450962e-01 | transmission=-8.81450962e-01
+2026-10-19 22:13:10,280 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0046.fsp
+2026-10-19 22:13:22,277 | INFO | Iteration iter_0046 | gradient_norm= 1.87096927e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:13:32,739 | INFO | Iteration iter_0047 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:13:40,189 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:13:40,245 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0047.fsp
+2026-10-19 22:13:53,418 | INFO | Iteration iter_0047 | raw_fom= 8.81363490e-01 | transmission=-8.81363490e-01
+2026-10-19 22:13:53,540 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0047.fsp
+2026-10-19 22:14:05,541 | INFO | Iteration iter_0047 | gradient_norm= 5.73097339e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:14:16,042 | INFO | Iteration iter_0048 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:14:23,540 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:14:23,596 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0048.fsp
+2026-10-19 22:14:36,683 | INFO | Iteration iter_0048 | raw_fom= 8.81502386e-01 | transmission=-8.81502386e-01
+2026-10-19 22:14:36,808 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0048.fsp
+2026-10-19 22:14:48,818 | INFO | Iteration iter_0048 | gradient_norm= 1.70922527e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:14:59,291 | INFO | Iteration iter_0049 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:15:06,759 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:15:06,818 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0049.fsp
+2026-10-19 22:15:19,954 | INFO | Iteration iter_0049 | raw_fom= 8.82292551e-01 | transmission=-8.82292551e-01
+2026-10-19 22:15:20,073 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0049.fsp
+2026-10-19 22:15:32,089 | INFO | Iteration iter_0049 | gradient_norm= 9.94860827e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:15:42,588 | INFO | Iteration iter_0050 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:15:50,046 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:15:50,104 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0050.fsp
+2026-10-19 22:16:03,228 | INFO | Iteration iter_0050 | raw_fom= 8.82551298e-01 | transmission=-8.82551298e-01
+2026-10-19 22:16:03,349 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0050.fsp
+2026-10-19 22:16:15,400 | INFO | Iteration iter_0050 | gradient_norm= 5.99926375e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:16:25,855 | INFO | Iteration iter_0051 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:16:33,340 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:16:33,396 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0051.fsp
+2026-10-19 22:16:46,505 | INFO | Iteration iter_0051 | raw_fom= 8.82797060e-01 | transmission=-8.82797060e-01
+2026-10-19 22:16:46,628 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0051.fsp
+2026-10-19 22:16:58,660 | INFO | Iteration iter_0051 | gradient_norm= 3.27231516e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:17:09,162 | INFO | Iteration iter_0052 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:17:16,626 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:17:16,680 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0052.fsp
+2026-10-19 22:17:29,837 | INFO | Iteration iter_0052 | raw_fom= 8.83325246e-01 | transmission=-8.83325246e-01
+2026-10-19 22:17:29,958 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0052.fsp
+2026-10-19 22:17:41,979 | INFO | Iteration iter_0052 | gradient_norm= 1.71964854e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:17:52,451 | INFO | Iteration iter_0053 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:17:59,922 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:17:59,976 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0053.fsp
+2026-10-19 22:18:13,215 | INFO | Iteration iter_0053 | raw_fom= 8.83637525e-01 | transmission=-8.83637525e-01
+2026-10-19 22:18:13,344 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0053.fsp
+2026-10-19 22:18:25,363 | INFO | Iteration iter_0053 | gradient_norm= 2.18055228e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:18:35,872 | INFO | Iteration iter_0054 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:18:43,333 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:18:43,390 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0054.fsp
+2026-10-19 22:18:56,587 | INFO | Iteration iter_0054 | raw_fom= 8.83876396e-01 | transmission=-8.83876396e-01
+2026-10-19 22:18:56,708 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0054.fsp
+2026-10-19 22:19:08,729 | INFO | Iteration iter_0054 | gradient_norm= 8.77752993e-12 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:19:19,196 | INFO | Iteration iter_0055 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:19:26,651 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:19:26,709 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0055.fsp
+2026-10-19 22:19:39,915 | INFO | Iteration iter_0055 | raw_fom= 8.84195544e-01 | transmission=-8.84195544e-01
+2026-10-19 22:19:40,036 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0055.fsp
+2026-10-19 22:19:52,068 | INFO | Iteration iter_0055 | gradient_norm= 1.46611923e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:20:02,597 | INFO | Iteration iter_0056 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:20:10,029 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:20:10,084 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0056.fsp
+2026-10-19 22:20:23,225 | INFO | Iteration iter_0056 | raw_fom= 8.84723404e-01 | transmission=-8.84723404e-01
+2026-10-19 22:20:23,346 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0056.fsp
+2026-10-19 22:20:34,367 | INFO | Iteration iter_0056 | gradient_norm= 2.63705950e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:20:45,706 | INFO | Iteration iter_0057 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:20:53,158 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:20:53,215 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0057.fsp
+2026-10-19 22:21:05,125 | INFO | Iteration iter_0057 | raw_fom= 8.74829448e-01 | transmission=-8.74829448e-01
+2026-10-19 22:21:05,248 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0057.fsp
+2026-10-19 22:21:18,516 | INFO | Iteration iter_0057 | gradient_norm= 7.49610702e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:21:29,021 | INFO | Iteration iter_0058 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:21:36,491 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:21:36,546 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0058.fsp
+2026-10-19 22:21:49,692 | INFO | Iteration iter_0058 | raw_fom= 8.85016301e-01 | transmission=-8.85016301e-01
+2026-10-19 22:21:49,812 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0058.fsp
+2026-10-19 22:22:01,830 | INFO | Iteration iter_0058 | gradient_norm= 3.82202664e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:22:12,339 | INFO | Iteration iter_0059 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:22:19,796 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:22:19,846 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0059.fsp
+2026-10-19 22:22:31,973 | INFO | Iteration iter_0059 | raw_fom= 8.33380107e-01 | transmission=-8.33380107e-01
+2026-10-19 22:22:32,098 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0059.fsp
+2026-10-19 22:22:43,747 | INFO | Iteration iter_0059 | gradient_norm= 1.75886460e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:22:54,246 | INFO | Iteration iter_0060 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:23:01,747 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:23:01,808 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0060.fsp
+2026-10-19 22:23:14,908 | INFO | Iteration iter_0060 | raw_fom= 8.85613860e-01 | transmission=-8.85613860e-01
+2026-10-19 22:23:15,028 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0060.fsp
+2026-10-19 22:23:27,070 | INFO | Iteration iter_0060 | gradient_norm= 6.05823132e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:23:37,561 | INFO | Iteration iter_0061 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:23:45,034 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:23:45,085 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0061.fsp
+2026-10-19 22:23:58,230 | INFO | Iteration iter_0061 | raw_fom= 8.70327656e-01 | transmission=-8.70327656e-01
+2026-10-19 22:23:58,355 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0061.fsp
+2026-10-19 22:24:10,383 | INFO | Iteration iter_0061 | gradient_norm= 1.11500555e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:24:20,897 | INFO | Iteration iter_0062 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:24:28,357 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:24:28,415 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0062.fsp
+2026-10-19 22:24:41,554 | INFO | Iteration iter_0062 | raw_fom= 8.86196327e-01 | transmission=-8.86196327e-01
+2026-10-19 22:24:41,679 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0062.fsp
+2026-10-19 22:24:53,684 | INFO | Iteration iter_0062 | gradient_norm= 8.26194227e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:25:04,170 | INFO | Iteration iter_0063 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:25:11,621 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:25:11,674 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0063.fsp
+2026-10-19 22:25:24,812 | INFO | Iteration iter_0063 | raw_fom= 8.87294205e-01 | transmission=-8.87294205e-01
+2026-10-19 22:25:24,931 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0063.fsp
+2026-10-19 22:25:36,953 | INFO | Iteration iter_0063 | gradient_norm= 6.02467787e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:25:47,428 | INFO | Iteration iter_0064 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:25:54,908 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:25:54,966 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0064.fsp
+2026-10-19 22:26:08,100 | INFO | Iteration iter_0064 | raw_fom= 8.87709086e-01 | transmission=-8.87709086e-01
+2026-10-19 22:26:08,222 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0064.fsp
+2026-10-19 22:26:20,234 | INFO | Iteration iter_0064 | gradient_norm= 5.31042898e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:26:30,743 | INFO | Iteration iter_0065 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:26:38,171 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:26:38,224 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0065.fsp
+2026-10-19 22:26:51,431 | INFO | Iteration iter_0065 | raw_fom= 8.89143091e-01 | transmission=-8.89143091e-01
+2026-10-19 22:26:51,550 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0065.fsp
+2026-10-19 22:27:03,609 | INFO | Iteration iter_0065 | gradient_norm= 5.20485866e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:27:14,133 | INFO | Iteration iter_0066 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:27:21,589 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:27:21,644 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0066.fsp
+2026-10-19 22:27:33,671 | INFO | Iteration iter_0066 | raw_fom= 9.02128202e-01 | transmission=-9.02128202e-01
+2026-10-19 22:27:33,806 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0066.fsp
+2026-10-19 22:27:45,860 | INFO | Iteration iter_0066 | gradient_norm= 3.92601331e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:27:57,321 | INFO | Iteration iter_0067 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:28:04,754 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:28:04,810 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0067.fsp
+2026-10-19 22:28:18,002 | INFO | Iteration iter_0067 | raw_fom= 9.04354933e-01 | transmission=-9.04354933e-01
+2026-10-19 22:28:18,124 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0067.fsp
+2026-10-19 22:28:30,135 | INFO | Iteration iter_0067 | gradient_norm= 2.78627240e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:28:40,599 | INFO | Iteration iter_0068 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:28:48,064 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:28:48,118 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0068.fsp
+2026-10-19 22:29:01,364 | INFO | Iteration iter_0068 | raw_fom= 9.39370521e-01 | transmission=-9.39370521e-01
+2026-10-19 22:29:01,497 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0068.fsp
+2026-10-19 22:29:13,498 | INFO | Iteration iter_0068 | gradient_norm= 2.80717265e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:29:23,991 | INFO | Iteration iter_0069 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:29:31,472 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:29:31,530 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0069.fsp
+2026-10-19 22:29:44,681 | INFO | Iteration iter_0069 | raw_fom= 9.11209295e-01 | transmission=-9.11209295e-01
+2026-10-19 22:29:44,803 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0069.fsp
+2026-10-19 22:29:56,792 | INFO | Iteration iter_0069 | gradient_norm= 1.18386673e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:30:07,254 | INFO | Iteration iter_0070 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:30:14,688 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:30:14,744 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0070.fsp
+2026-10-19 22:30:26,945 | INFO | Iteration iter_0070 | raw_fom= 9.42471604e-01 | transmission=-9.42471604e-01
+2026-10-19 22:30:27,071 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0070.fsp
+2026-10-19 22:30:40,161 | INFO | Iteration iter_0070 | gradient_norm= 2.37224926e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:30:50,613 | INFO | Iteration iter_0071 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:30:58,063 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:30:58,118 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0071.fsp
+2026-10-19 22:31:11,280 | INFO | Iteration iter_0071 | raw_fom= 9.33123167e-01 | transmission=-9.33123167e-01
+2026-10-19 22:31:11,412 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0071.fsp
+2026-10-19 22:31:23,426 | INFO | Iteration iter_0071 | gradient_norm= 6.06811558e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:31:33,878 | INFO | Iteration iter_0072 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:31:41,338 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:31:41,391 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0072.fsp
+2026-10-19 22:31:54,589 | INFO | Iteration iter_0072 | raw_fom= 9.42259316e-01 | transmission=-9.42259316e-01
+2026-10-19 22:31:54,711 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0072.fsp
+2026-10-19 22:32:06,756 | INFO | Iteration iter_0072 | gradient_norm= 2.19386225e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:32:17,226 | INFO | Iteration iter_0073 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:32:31,253 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:32:31,314 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0073.fsp
+2026-10-19 22:32:43,004 | INFO | Iteration iter_0073 | raw_fom= 9.42457475e-01 | transmission=-9.42457475e-01
+2026-10-19 22:32:43,129 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0073.fsp
+2026-10-19 22:32:55,153 | INFO | Iteration iter_0073 | gradient_norm= 2.35444769e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:33:05,659 | INFO | Iteration iter_0074 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:33:13,104 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:33:13,161 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0074.fsp
+2026-10-19 22:33:26,302 | INFO | Iteration iter_0074 | raw_fom= 9.42470083e-01 | transmission=-9.42470083e-01
+2026-10-19 22:33:26,427 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0074.fsp
+2026-10-19 22:33:38,428 | INFO | Iteration iter_0074 | gradient_norm= 2.37046234e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:33:48,887 | INFO | Iteration iter_0075 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:33:56,322 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:33:56,380 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0075.fsp
+2026-10-19 22:34:08,471 | INFO | Iteration iter_0075 | raw_fom= 9.42471693e-01 | transmission=-9.42471693e-01
+2026-10-19 22:34:08,598 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0075.fsp
+2026-10-19 22:34:20,617 | INFO | Iteration iter_0075 | gradient_norm= 2.37206919e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:34:31,120 | INFO | Iteration iter_0076 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:34:38,602 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:34:38,655 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0076.fsp
+2026-10-19 22:34:51,849 | INFO | Iteration iter_0076 | raw_fom= 9.40160657e-01 | transmission=-9.40160657e-01
+2026-10-19 22:34:51,982 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0076.fsp
+2026-10-19 22:35:03,955 | INFO | Iteration iter_0076 | gradient_norm= 3.17014818e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:35:14,444 | INFO | Iteration iter_0077 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:35:21,916 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:35:21,970 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0077.fsp
+2026-10-19 22:35:35,109 | INFO | Iteration iter_0077 | raw_fom= 9.42691710e-01 | transmission=-9.42691710e-01
+2026-10-19 22:35:35,238 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0077.fsp
+2026-10-19 22:35:47,270 | INFO | Iteration iter_0077 | gradient_norm= 2.16754799e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:35:57,728 | INFO | Iteration iter_0078 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:36:05,208 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:36:05,261 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0078.fsp
+2026-10-19 22:36:18,420 | INFO | Iteration iter_0078 | raw_fom= 9.41599331e-01 | transmission=-9.41599331e-01
+2026-10-19 22:36:18,546 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0078.fsp
+2026-10-19 22:36:30,563 | INFO | Iteration iter_0078 | gradient_norm= 1.42741201e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:36:41,031 | INFO | Iteration iter_0079 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:36:48,547 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:36:48,598 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0079.fsp
+2026-10-19 22:37:01,658 | INFO | Iteration iter_0079 | raw_fom= 9.42848643e-01 | transmission=-9.42848643e-01
+2026-10-19 22:37:01,785 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0079.fsp
+2026-10-19 22:37:13,805 | INFO | Iteration iter_0079 | gradient_norm= 1.96890448e-09 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:37:24,302 | INFO | Iteration iter_0080 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:37:31,774 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:37:31,826 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0080.fsp
+2026-10-19 22:37:45,057 | INFO | Iteration iter_0080 | raw_fom= 9.43600259e-01 | transmission=-9.43600259e-01
+2026-10-19 22:37:45,184 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0080.fsp
+2026-10-19 22:37:57,201 | INFO | Iteration iter_0080 | gradient_norm= 5.07162106e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:38:07,633 | INFO | Iteration iter_0081 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:38:15,101 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:38:15,162 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0081.fsp
+2026-10-19 22:38:28,415 | INFO | Iteration iter_0081 | raw_fom= 9.44891803e-01 | transmission=-9.44891803e-01
+2026-10-19 22:38:28,544 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0081.fsp
+2026-10-19 22:38:40,559 | INFO | Iteration iter_0081 | gradient_norm= 2.78255135e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:38:51,025 | INFO | Iteration iter_0082 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:38:58,480 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:38:58,531 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0082.fsp
+2026-10-19 22:39:11,680 | INFO | Iteration iter_0082 | raw_fom= 9.45451098e-01 | transmission=-9.45451098e-01
+2026-10-19 22:39:11,810 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0082.fsp
+2026-10-19 22:39:23,840 | INFO | Iteration iter_0082 | gradient_norm= 1.78240817e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:39:34,358 | INFO | Iteration iter_0083 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:39:41,843 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:39:41,904 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0083.fsp
+2026-10-19 22:39:53,966 | INFO | Iteration iter_0083 | raw_fom= 9.46246882e-01 | transmission=-9.46246882e-01
+2026-10-19 22:39:54,100 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0083.fsp
+2026-10-19 22:40:07,204 | INFO | Iteration iter_0083 | gradient_norm= 1.62426973e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:40:17,703 | INFO | Iteration iter_0084 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:40:25,169 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:40:25,224 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0084.fsp
+2026-10-19 22:40:38,374 | INFO | Iteration iter_0084 | raw_fom= 9.47046301e-01 | transmission=-9.47046301e-01
+2026-10-19 22:40:38,497 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0084.fsp
+2026-10-19 22:40:50,514 | INFO | Iteration iter_0084 | gradient_norm= 2.55445710e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:41:00,959 | INFO | Iteration iter_0085 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:41:08,410 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:41:08,465 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0085.fsp
+2026-10-19 22:41:20,395 | INFO | Iteration iter_0085 | raw_fom= 9.48092806e-01 | transmission=-9.48092806e-01
+2026-10-19 22:41:20,526 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0085.fsp
+2026-10-19 22:41:32,534 | INFO | Iteration iter_0085 | gradient_norm= 5.06823005e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:41:43,027 | INFO | Iteration iter_0086 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:41:50,499 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:41:50,556 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0086.fsp
+2026-10-19 22:42:03,812 | INFO | Iteration iter_0086 | raw_fom= 9.49747421e-01 | transmission=-9.49747421e-01
+2026-10-19 22:42:03,933 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0086.fsp
+2026-10-19 22:42:14,951 | INFO | Iteration iter_0086 | gradient_norm= 1.44636302e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:42:26,292 | INFO | Iteration iter_0087 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:42:33,765 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:42:33,818 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0087.fsp
+2026-10-19 22:42:47,071 | INFO | Iteration iter_0087 | raw_fom= 9.50892821e-01 | transmission=-9.50892821e-01
+2026-10-19 22:42:47,206 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0087.fsp
+2026-10-19 22:42:59,208 | INFO | Iteration iter_0087 | gradient_norm= 9.19191719e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:43:09,700 | INFO | Iteration iter_0088 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:43:17,170 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:43:17,229 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0088.fsp
+2026-10-19 22:43:30,354 | INFO | Iteration iter_0088 | raw_fom= 9.53914604e-01 | transmission=-9.53914604e-01
+2026-10-19 22:43:30,483 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0088.fsp
+2026-10-19 22:43:42,529 | INFO | Iteration iter_0088 | gradient_norm= 1.43759924e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:43:53,059 | INFO | Iteration iter_0089 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:44:00,594 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:44:00,649 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0089.fsp
+2026-10-19 22:44:12,716 | INFO | Iteration iter_0089 | raw_fom= 9.55455560e-01 | transmission=-9.55455560e-01
+2026-10-19 22:44:12,850 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0089.fsp
+2026-10-19 22:44:24,795 | INFO | Iteration iter_0089 | gradient_norm= 3.21518340e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:44:36,196 | INFO | Iteration iter_0090 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:44:43,670 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:44:43,729 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0090.fsp
+2026-10-19 22:44:56,849 | INFO | Iteration iter_0090 | raw_fom= 9.56923802e-01 | transmission=-9.56923802e-01
+2026-10-19 22:44:56,971 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0090.fsp
+2026-10-19 22:45:08,975 | INFO | Iteration iter_0090 | gradient_norm= 2.25966852e-11 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:45:19,472 | INFO | Iteration iter_0091 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:45:26,908 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:45:26,969 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0091.fsp
+2026-10-19 22:45:38,894 | INFO | Iteration iter_0091 | raw_fom= 9.58120878e-01 | transmission=-9.58120878e-01
+2026-10-19 22:45:39,031 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0091.fsp
+2026-10-19 22:45:50,968 | INFO | Iteration iter_0091 | gradient_norm= 8.02569207e-12 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:46:01,450 | INFO | Iteration iter_0092 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:46:08,929 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:46:08,981 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0092.fsp
+2026-10-19 22:46:22,177 | INFO | Iteration iter_0092 | raw_fom= 9.63484465e-01 | transmission=-9.63484465e-01
+2026-10-19 22:46:22,300 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0092.fsp
+2026-10-19 22:46:34,291 | INFO | Iteration iter_0092 | gradient_norm= 2.81778610e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:46:44,740 | INFO | Iteration iter_0093 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:46:52,213 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:46:52,275 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0093.fsp
+2026-10-19 22:47:04,312 | INFO | Iteration iter_0093 | raw_fom= 9.67142015e-01 | transmission=-9.67142015e-01
+2026-10-19 22:47:04,440 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0093.fsp
+2026-10-19 22:47:16,430 | INFO | Iteration iter_0093 | gradient_norm= 2.16733452e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:47:27,897 | INFO | Iteration iter_0094 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:47:35,358 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:47:35,415 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0094.fsp
+2026-10-19 22:47:47,366 | INFO | Iteration iter_0094 | raw_fom= 9.73120863e-01 | transmission=-9.73120863e-01
+2026-10-19 22:47:47,495 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0094.fsp
+2026-10-19 22:48:00,705 | INFO | Iteration iter_0094 | gradient_norm= 3.14801248e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:48:11,180 | INFO | Iteration iter_0095 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:48:18,644 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:48:18,703 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0095.fsp
+2026-10-19 22:48:31,875 | INFO | Iteration iter_0095 | raw_fom= 9.69567757e-01 | transmission=-9.69567757e-01
+2026-10-19 22:48:31,999 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0095.fsp
+2026-10-19 22:48:44,041 | INFO | Iteration iter_0095 | gradient_norm= 3.59406548e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:48:54,535 | INFO | Iteration iter_0096 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:49:02,008 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:49:02,060 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0096.fsp
+2026-10-19 22:49:15,191 | INFO | Iteration iter_0096 | raw_fom= 9.72998841e-01 | transmission=-9.72998841e-01
+2026-10-19 22:49:15,314 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0096.fsp
+2026-10-19 22:49:26,199 | INFO | Iteration iter_0096 | gradient_norm= 2.47427313e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:49:37,714 | INFO | Iteration iter_0097 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:49:45,160 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:49:45,213 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0097.fsp
+2026-10-19 22:49:58,366 | INFO | Iteration iter_0097 | raw_fom= 9.73111142e-01 | transmission=-9.73111142e-01
+2026-10-19 22:49:58,487 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0097.fsp
+2026-10-19 22:50:10,480 | INFO | Iteration iter_0097 | gradient_norm= 3.08035123e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:50:20,992 | INFO | Iteration iter_0098 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:50:28,474 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:50:28,534 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0098.fsp
+2026-10-19 22:50:40,282 | INFO | Iteration iter_0098 | raw_fom= 9.73120059e-01 | transmission=-9.73120059e-01
+2026-10-19 22:50:40,405 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0098.fsp
+2026-10-19 22:50:51,819 | INFO | Iteration iter_0098 | gradient_norm= 3.14118797e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:51:02,298 | INFO | Iteration iter_0099 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:51:09,748 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:51:09,812 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0099.fsp
+2026-10-19 22:51:21,964 | INFO | Iteration iter_0099 | raw_fom= 9.73120712e-01 | transmission=-9.73120712e-01
+2026-10-19 22:51:22,090 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0099.fsp
+2026-10-19 22:51:35,157 | INFO | Iteration iter_0099 | gradient_norm= 3.14723111e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:51:45,640 | INFO | Iteration iter_0100 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:51:53,090 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:51:53,149 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0100.fsp
+2026-10-19 22:52:06,413 | INFO | Iteration iter_0100 | raw_fom= 9.73120707e-01 | transmission=-9.73120707e-01
+2026-10-19 22:52:06,534 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0100.fsp
+2026-10-19 22:52:18,556 | INFO | Iteration iter_0100 | gradient_norm= 3.14787897e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:52:29,041 | INFO | Iteration iter_0101 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:52:36,494 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:52:36,550 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_iter_0101.fsp
+2026-10-19 22:52:49,735 | INFO | Iteration iter_0101 | raw_fom= 9.73120915e-01 | transmission=-9.73120915e-01
+2026-10-19 22:52:49,857 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_iter_0101.fsp
+2026-10-19 22:53:01,878 | INFO | Iteration iter_0101 | gradient_norm= 3.14801080e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:53:12,390 | INFO | Iteration final_0102 | Reconstructed index map shape: (393, 393)
+2026-10-19 22:53:19,877 | INFO | Updated fom_mode_src direction to Forward
+2026-10-19 22:53:19,930 | INFO | Saved forward session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\forward_final_0102.fsp
+2026-10-19 22:53:31,845 | INFO | Iteration final_0102 | raw_fom= 9.73120915e-01 | transmission=-9.73120915e-01
+2026-10-19 22:53:31,967 | INFO | Saved adjoint session: C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\temp_sessions\device_1_slsqp\adjoint_final_0102.fsp
+2026-10-19 22:53:43,376 | INFO | Iteration final_0102 | gradient_norm= 3.14801080e-10 | sensitivity_shape=(393, 393) | fwd_shape=(393, 393) | adj_shape=(393, 393)
+2026-10-19 22:53:53,863 | INFO | Optimization complete | success=True | message=Optimization terminated successfully
+2026-10-19 22:53:53,864 | INFO | Saved summary to C:\Users\elsaym15\OneDrive - McMaster University\Documents\GitHub\pca-coeff-opt\results\photonics\optimization\device_1_slsqp\run_summary.json
